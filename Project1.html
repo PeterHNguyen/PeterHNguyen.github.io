@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width= device-width, inital-scale=1">
+        <title> Project1.html </title>
+        <link rel="stylesheet" href="styles.css"/> 
+        <style> 
+            .center{
+                text-align: center;
+            }
+
+            .blueText{
+                color: blue;
+            }
+
+            .profile-pic {
+                display: block;
+                margin: 0 auto; 
+                width:200px; 
+                height:200px;
+                border-radius: 50%; 
+                object-fit: cover;
+            }
+
+            .center-image{
+                display: block;
+                margin: auto; 
+                width:200px; 
+                border-radius: 50%; 
+            }
+
+            /* contact plus the navigation*/
+            .contact {margin-top: 0.5rem}
+            .contact a { text-decoration: none; }
+            .cntact a:hover { text-decoration: underline;}
+            nav a{ margin-right: 0.75rem; }
+    </style>
+ </head>
+
+
+<main>
+    <article>
+    <section>
+        <div class="center" blueText=" blueText">
+        <img src="image.png" class="profile-pic"> 
+        <h1 class ="center"> Peter Hoang Nguyen </h1>
+        <address class=""contact"></address>
+        <h3> UCFID: 5456353 | Pe264311@ucf.edu |
+            <a href= "https://www.linkedin.com/in/peterh-nguyen/"> Linkedin </a href>
+        </a>
+    </address>
+
+        <!-- grabbed a navigation portion from chatgpt -->
+    <nav aria-label="Projects">
+        <a href="#unique-projects">UNIQUE PROJECTS</a>
+        <a href="#objective">OBJECTIVE</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        </nav>
+        </div>
+    </secion>
+
+
+
+
+    <!-- Unique Projects -->
+    <section id="unique-projects">
+        <h2> UNIQUE PROJECTS</h2>
+        <ul>
+        <li><a href="projectOne.html">Project 1: Password strength checker</a> </li>
+        <li> <a href="projectTwo.html">Project 2: Two Tier Client Server Application</a></li>
+        </ul>
+    </section>
+
+    <!-- PROFESSIONAL OBECTIVE-->
+    <section id="objective">
+        <h1>  PROFESSIONAL OBJECTIVE </h1>
+        <h4> 
+            <ul>
+            <li> Hey guys! I'm a 4th year information technology student at the University of Central Florida, passionate about cybersecurity and IT. 
+            Currently, I'm working on expanding my cybersecurity knowledge while preparing for the CompTIA Security+ certification. 
+            I also enjoy hands-on projects like building secure networks, frontend development, and implementing cybersecurity best practices. 
+            </li> 
+            </ul>
+        </h4>
+    </section>
+
+    <!-- EDUCATION-->
+    <section id="education">
+        <h1> EDUCATION </h1>
+        <h3> University of Central Florida</h3>
+        <li> Bachelor of Science in Information Technology ( Major GPA:3.4/4.0)  </li>
+    </section>
+
+    <!-- EXPERIENCE-->
+    <section id="experience"> 
+            <h1> RELEVANT WORK EXPERIENCE</h1>
+            <h3> Cyber Security GRC Intern </h3>
+            <ul> 
+            <h4> One Call | Jacksonville, FL (Remote)  May 2025 - August 2025  </h4>                                                                      
+            <li> Reviewed, updated, and mapped 25+ internal security standards and policies to industry frameworks including CIS Controls and HITRUST CSF within OneTrust, improving compliance visibility and audit readiness. </li>
+            <li>Leveraged Excel  to cross-reference 50+ CIS and HITRUST controls against internal policies, identifying gaps and misalignments that led to the revision or creation of 10+ compliance procedures within OneTrust. </li>
+            <li> Conducted policy, framework, and procedure research to identify best practices, resulting in the revision or creation of  3+ governance documents that strengthened organizational compliance regulations.</li>
+            <li> Utilized OneTrust Questionnaire Response Automation (QRA) to streamline vendor risk assessments and reduce manual questionnaire completion time by 20%.</li>
+            </ul>
+        </body>
+    </section>
+
+    <!--PROJECTS -->
+        <section id="projects">
+            <h1> PROJECTS </h1>
+            <h3>Two Tier Client-Server Application | Java, MySQL, Swing</h3>
+            <ul>
+                <li>Developed a two-tier client-server application using Java and MySQL, supporting 4 distinct user roles with customized database permissions.</li>
+                <li>Designed an interactive GUI using Swing, improving database accessibility and query execution efficiency by 60% compared to manual SQL input.
+                </li>
+                <li>Implemented dynamic query execution with real-time results, enabling simulated users to run 100+ SQL queries and update records securely.</li>
+            </ul>
+            <h3>Password Strength Checker | Python, Tkinter	</h3>
+                <ul>
+                <li> Prepared a real-time password strength checker with a GUI using Tkinter, helping users improve password security</li>
+                <li>Implemented 4 security criteria (uppercase, lowercase, digits, special characters) to assess password strength</li>
+                <li> Utilized 100% regex validation coverage for input security, blocking insecure passwords before submission</li>
+                </ul>
+            <h3>Open Invest | chart.js, MUI, React.js, Express.js, Node.js, CSS, figma, and Supabase   </h3>
+            <ul>
+                <li>Worked in a team of 5 to  create a comprehensive fintech website inspired by industry leaders to facilitate trading and investment decisions and landed 2nd place on the semester-long project.</li>
+                <li> Created a budgeting page UI using Node.js, Chart.js, and MUI to support personalized investment and spending plans</li> 
+            </ul>
+        </section>
+
+    <!-- SKILLS -->
+        <section id="skills">
+            <h1>SKILLS</h1>
+            <ul>
+                <li> Languages: C/C++, Java, Python, JavaScript, HTML\CSS, SQL, MySQL</li>
+                <li>Tools & Frameworks: Git, Figma, Tkinter, React.js, Node.js, Three.js, Express.js, Chart.js, VS Code, IntelliJ IDEA, Code::Block, MaterialUI, Github, Django, Supabase, Microsoft Excel, Eclipse IDE, OneTrust </li>
+            </ul>
+        </section>
+
+    <footer>
+        <p>&copy; 2025 Peter Hoang Nguyen</p>
+      </footer>
+    </article>
+</main>
+</html> 

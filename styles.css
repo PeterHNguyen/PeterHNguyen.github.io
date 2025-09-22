@@ -1,0 +1,56 @@
+.center {
+    text-align:center;
+}
+img{
+    max-width: 100%;
+    height:auto; 
+}
+
+.profile-pic{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: cover; 
+
+}
+
+body, main{
+    max-width: 900px;
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    padding:0 1rem;
+}
+
+header{
+    padding:1.25rem 0;
+}
+
+h1, h2, h3, h4{
+    margin: 0.75rem 0;
+}
+
+section{
+    margin:1.25 ;
+}
+
+ul{
+    padding-left: 1.25rem;
+}
+
+li{
+    maring:0.35 rem0;
+}
+
+nav{
+    display: flex;
+    margin:0 0.5rem;
+    flex-wrap:wrap;
+    text-decoration: none;
+    color:blue;
+}
+
+nav a:hover{
+ text-decoration: underline;
+}
